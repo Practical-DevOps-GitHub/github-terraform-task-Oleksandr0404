@@ -94,7 +94,7 @@ resource "github_actions_secret" "pat" {
 
 resource "null_resource" "discord_webhook" {
   provisioner "local-exec" {
-    command = "curl -X POST -H 'Content-Type: application/json' -d '{\"content\": \"Pull request created in ${github_repository.my_repo.name}\"}' YOUR_DISCORD_WEBHOOK_URL"
+    command = "curl -X POST -H 'Content-Type: application/json' -d '{\"content\": \"Pull request created in ${github_repository.my_repo.name}\"}' https://discord.com/api/webhooks/1286948244949172234/gCcuL55shG48zsQycoJwmBUAS-YBYWSO876mZrLjuT5ibJEJs90lJwmLtap8CCNvHOQx/github"
   }
 }
 
