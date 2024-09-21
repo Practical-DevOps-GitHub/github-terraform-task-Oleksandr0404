@@ -99,5 +99,5 @@ resource "null_resource" "discord_webhook" {
 }
 
 variable "github_token" { type = string }
-variable "deploy_key" { type = string }
-variable "pat" { type = string }
+variable "deploy_key" {ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDD12+tYIiYy7wKTWsIu8fY34nWAX6Jocbahys2vLHqc4FunUwQEzFHbP8Vvc5qQ2AzvdvnEKizWL0MO5cndrwCfvWQPTsSAjVJy7s9aHEWb7rn/PT12L/Q/s4lEo3AYTXI5hZOueZrxIA8mPJHqVFXUNa9qy1vU1AMPaDpBkjBWbovEg4Zv/y3gkOJekOsQA32mBuwAiWRH3WA2RancPBUm3j0iFW0QJbDpcqbe/vYAgrM7GCD14v38BQwvt8YrzFCpT3tijxRIJd0IOduqIoxg6iD7eO/77nxlysZRdbqlqYuLs7JzwaMLuhnlKzaCeknWv1WgZ2Rmk+TNRlRjzzADmcUVsbkEfxR8jbQNaXSoN73sgrU5lYILwtAlJJcm/+Iy/EOUembECka0eLYae/U/b588SfyuKLfVYerOSl11SGiRmGn/wnOrmxV7gGDbFvEx8NtcgtAZCH7CA8zaikF2bMPfnocbjnV8OvA6zWC4SszxEQ0sN2puO0QJLLt+fue25VziCXNlNiA1jMdyOKPEStf7Gw2sGCecEkUhUVrAWoWKKFhW91q9jXQesWljg+8CpDBuUPlLBHp/XUWpjUJEhXFmeeDJGwa/EPWarW8JvURvdoxCDELJmpdQCk3ILVp832L5QJdJc0HZu1YubxZLiB+vN4/VaOsn2KDuI5sNQ== deploy_key}
+variable "pat" {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}
